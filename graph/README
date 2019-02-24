@@ -1,17 +1,6 @@
-Suppose you are the inventor of a social network (call it Fussbook). The attached file, net-
-work_fussbook.txt, describes the friendships between individuals on Fussbook. Assume that all
-relationships are symmetric, i.e., the graph is undirected.
+To run this program. Open a termnial and use command [make] to compile, the executable is named as [graph.cpp]
 
-(a) Write a small program that takes a filename as input, opens and parses the file, and outputs
-the number of nodes and edges in the network.
+run the executable binary, then input the name of the file you want to parse in to the program.
+input file need to be in strict format of "int string string string int" in every line.
 
-(b) Suppose you are tasked with finding the “most well-connected” person on Fussbook. In
-your view, which concept from graph theory (discussed in class) is a plausible measure of
-well-connectedness?
-
-(c) Write another small program that automatically determines the most well-connected person in
-Fussbook.
-
-Repeat parts a and c for a rival social network (call it Instaface); a description of friend
-relationships on this network is given in network_instaface.txt.
-
+program output will be displayed in termnial.
