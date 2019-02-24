@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
     std::string s_1, s_2, s_3;
     while (f >> next_from >> s_1 >> s_2 >> s_3 >> next_to)
     {
-        std::cout << next_from << " " << next_to << std::endl;
+        //std::cout << next_from << " " << next_to << std::endl;
         if (adjacency_size < next_from)
         {
             adjacency_size = next_from;
@@ -75,7 +75,7 @@ int main(int argc, char *argv[])
     }
 
 
-    std::cout << std::endl << std::endl << std::endl<< "adjacency list of graph" << std::endl;
+    std::cout << "adjacency list of graph" << std::endl;
     printf("    ");
     for (int i=0; i<adjacency_size; i++)
     {
