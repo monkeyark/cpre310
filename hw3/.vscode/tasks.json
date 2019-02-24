@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "make",
             "group": {
-                "kind": "test",
+                "kind": "build",
                 "isDefault": true
             }
         }

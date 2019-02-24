@@ -19,15 +19,18 @@ node_t *add_node(int label, std::vector<node_t> node_list)
     return node;
 }
 
-node_t *get_node(int i, std::vector<node_t> node_list)
+node_t *get_node(int i, std::vector<node_t> * node_list)
 {
-    for (node_t n : node_list)
+    node_t *temp_node;
+    //std::vector<node_t>::iterator it;
+    //for (it = node_list->begin(); it != node_list->end(); ++it)
+    for (node_t n : *node_list)
     {
         if (i == n.label)
         {
-            node_t *node = &n;
-            std::cout << "get node" << "         " << node->label << std::endl;
-            return node;
+            temp_node = &n;
+            std::cout << "get node" << "         " << temp_node->label << std::endl;
+            return temp_node;
         }
     }
     return NULL;
