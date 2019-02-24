@@ -3,25 +3,6 @@
 #include <vector>
 #include <fstream>
 
-/*
-Suppose you are the inventor of a social network (call it Fussbook). The attached file, net-
-work_fussbook.txt, describes the friendships between individuals on Fussbook. Assume that all
-relationships are symmetric, i.e., the graph is undirected.
-
-(a) Write a small program that takes a filename as input, opens and parses the file, and outputs
-the number of nodes and edges in the network.
-
-(b) Suppose you are tasked with finding the “most well-connected” person on Fussbook. In
-your view, which concept from graph theory (discussed in class) is a plausible measure of
-well-connectedness?
-
-(c) Write another small program that automatically determines the most well-connected person in
-Fussbook.
-
-Repeat parts a and c for a rival social network (call it Instaface); a description of friend
-relationships on this network is given in network_instaface.txt.
-
-*/
 
 int main(int argc, char *argv[])
 {
